@@ -943,3 +943,16 @@ span {
         width:80vw;
     }
 }
+
+@media (max-width:320px) {
+    html{
+        font-size: 40%;
+    }
+    .about-img img{
+        width:50vw;
+        height:50vh;
+    }
+    .home .profession-container .overlay{
+        top:80rem;
+    }
+}
