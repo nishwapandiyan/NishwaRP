@@ -113,15 +113,15 @@
     }
 
     section {
-        min-height: 100vh;
+        min-height: 100dvh;
         padding: 10rem 8% 2.5rem;
     }
 
     .home {
         display: flex;
         align-items: center;
-        overflow-x: hidden;
-        height: 100dvh;
+        overflow: hidden;
+        height: 100vh;
     }
 
     .home-content {
@@ -780,7 +780,8 @@
         }
         
         .home {
-            padding: 0 3% 23rem;
+            padding-bottom: 0;
+            padding: 0 5% 30rem;
             justify-content: center;
             flex-direction: column;
         }
